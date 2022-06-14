@@ -12,6 +12,7 @@ namespace HelloWebSocket
 
         static async Task Main()
         {
+             Console.WriteLine("Hello World, This is my first C# program"); 
             using (var webSocket = new ClientWebSocket())
             {
                 var serverUri = new Uri("wss://echo.websocket.org/");
